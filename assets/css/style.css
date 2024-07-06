@@ -472,8 +472,7 @@ p {
   text-transform: capitalize;
   color: #fffffffb;
   font-weight: 500;
-  text-shadow: -.02px -.02px 0 #000, .02px -.02px 0 #000, -.02px .02px 0 #000, .02px .02px 0 #000;
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .hero-content .list-social li {
