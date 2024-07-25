@@ -49,8 +49,8 @@ a:hover {
 p {
   margin: 25px 0;
   padding: 0;
-  font-size: 15px;
-  color: #999999;
+  font-size: 17px;
+  color: #1b1b1b;
   line-height: 28px;
 }
 
@@ -461,7 +461,7 @@ p {
   justify-content: center;
   flex-direction: column;
 }
-
+/* 
 .hero-content h1 {
   font-size: 40px;
   font-weight: 700;
@@ -478,8 +478,31 @@ p {
   text-transform: capitalize;
   color: #fffffffb;
   font-weight: 500;
-    font-weight: bold;
+  font-weight: 
 }
+*/
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fffffffb;
+  font-family: 'Courier Prime', monospace; /* Apply typewriter font */
+}
+
+.hero-content p {
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #fffffffb;
+  font-weight: 500;
+  font-family: 'Courier Prime', monospace; /* Apply typewriter font */
+}
+
+
 
 .hero-content .list-social li {
   float: left;
@@ -488,8 +511,13 @@ p {
 
 .hero-content .list-social li i {
   color: #fffffffb;
-  font-size: 15px;
+  font-size: 20px;
+  transition: color 0.3s ease; /* Smooth transition */
 }
+.hero-content .list-social li i:hover {
+  color: #18d26e;; /* Change to your desired hover color */
+}
+
 
 /*--------------------------------------------------------------
 # Breadcrumbs
