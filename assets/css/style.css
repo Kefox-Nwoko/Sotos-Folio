@@ -623,7 +623,7 @@ p {
 #services {
   background: #f7f7f7;
   position: relative;
-  padding-bottom: 80px;
+  padding: 10px;
 }
 
 .services-block span {
@@ -671,7 +671,7 @@ p {
 --------------------------------------------------------------*/
 #portfolio {
   position: relative;
-  padding-bottom: 50px;
+  padding: 35px;
 }
 
 #portfolio #portfolio-flters {
@@ -895,13 +895,13 @@ p {
 }
 
 .contact-details li {
-  padding-bottom: 10px;
+  padding: 5px;
 }
 
 #contact input,
 #contact textarea {
   width: 100%;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
 #contact textarea {
